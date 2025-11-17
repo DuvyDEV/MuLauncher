@@ -1,12 +1,12 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyCopyright("Copyright ©  2017 - Arnold Garcia")]
+[assembly: AssemblyCopyright("Copyright ©  2025 MuKonoha Duvy ")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyTitle("ZeroLauncher")]
+[assembly: AssemblyTitle("KonohaLauncher")]
 [assembly: Guid("af6c75c6-bc80-4e22-83a6-24c0f2bfb60e")]
-[assembly: AssemblyProduct("ZeroLauncher")]
-[assembly: AssemblyCompany("DobleHost")]
+[assembly: AssemblyProduct("KonohaLauncher")]
+[assembly: AssemblyCompany("MuKonoha")]
 [assembly: AssemblyDescription("")]
 [assembly: ComVisible(true)]
 [assembly: AssemblyFileVersion("2.0.9.0")]

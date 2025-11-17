@@ -6,11 +6,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <AssemblyName>ZeroLauncher</AssemblyName>
+    <AssemblyName>KonohaLauncher</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <ApplicationVersion>2.0.9.0</ApplicationVersion>
     <FileAlignment>512</FileAlignment>
     <RootNamespace>File_Downloader</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>konoha.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ionic.Zip">
@@ -74,9 +78,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form_Settings.resx" />
-    <EmbeddedResource Include="Form1.resx" />
-    <EmbeddedResource Include="frmMain.resx" />
-    <EmbeddedResource Include="Resources.resx" />
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="konoha.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

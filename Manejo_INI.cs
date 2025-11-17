@@ -1,6 +1,6 @@
-﻿using Microsoft.VisualBasic;
-using Microsoft.VisualBasic.CompilerServices;
+﻿using Microsoft.VisualBasic.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Text;
 
 
 namespace File_Downloader
@@ -11,48 +11,42 @@ namespace File_Downloader
     {
         [DllImport("kernel32", EntryPoint = "GetPrivateProfileStringA", CharSet = CharSet.Ansi, SetLastError = true)]
         private static extern int GetPrivateProfileStringKey(
-          [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpApplicationName,
-          [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpKeyName,
-          [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpDefault,
-          [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpReturnedString,
+          string lpApplicationName,
+          string lpKeyName,
+          string lpDefault,
+          StringBuilder lpReturnedString,
           int nSize,
-          [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpFileName);
+          string lpFileName);
 
         [DllImport("kernel32", EntryPoint = "GetPrivateProfileStringA", CharSet = CharSet.Ansi, SetLastError = true)]
         private static extern int GetPrivateProfileStringNullKey(
-          [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpApplicationName,
+          string lpApplicationName,
           int lpKeyName,
-          [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpDefault,
-          [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpReturnedString,
+          string lpDefault,
+          StringBuilder lpReturnedString,
           int nSize,
-          [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpFileName);
+          string lpFileName);
 
         [DllImport("Kernel32", EntryPoint = "WritePrivateProfileStringA", CharSet = CharSet.Ansi, SetLastError = true)]
-        private static extern long WritePrivateProfileString(
-          [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpApplicationName,
-          object lpKeyName,
-          object lpString,
-          [MarshalAs(UnmanagedType.VBByRefStr)] ref string lpFileName);
+        [return: MarshalAs(UnmanagedType.Bool)]
+        private static extern bool WritePrivateProfileString(
+          string lpApplicationName,
+          string lpKeyName,
+          string lpString,
+          string lpFileName);
 
         public static string LeerINI(string sINIFile, string sSection, string sKey, string sDefault)
         {
-            string lpReturnedString = Strings.Space(256 /*0x0100*/);
-            int profileStringKey = Manejo_INI.GetPrivateProfileStringKey(ref sSection, ref sKey, ref sDefault, ref lpReturnedString, (int)byte.MaxValue, ref sINIFile);
-            return Strings.Left(lpReturnedString, profileStringKey);
+            StringBuilder buffer = new StringBuilder(512);
+            int charsRead = Manejo_INI.GetPrivateProfileStringKey(sSection, sKey, sDefault ?? string.Empty, buffer, buffer.Capacity, sINIFile);
+            return charsRead > 0 ? buffer.ToString(0, charsRead) : string.Empty;
         }
 
         public static void EscribirINI(string sINIFile, string sSection, string sKey, string sValue)
         {
-            string lpString = sValue;
-            int num1 = Strings.Len(sValue);
-            int num2 = 1;
-            while (num2 <= num1)
-            {
-                if (Operators.CompareString(Strings.Mid(sValue, num2, 1), "\r", false) == 0 | Operators.CompareString(Strings.Mid(sValue, num2, 1), "\n", false) == 0)
-                    StringType.MidStmtStr(ref sValue, num2, int.MaxValue, "");
-                checked { ++num2; }
-            }
-            int num3 = checked((int)Manejo_INI.WritePrivateProfileString(ref sSection, (object)sKey, (object)lpString, ref sINIFile));
+            string sanitizedValue = sValue ?? string.Empty;
+            sanitizedValue = sanitizedValue.Replace("\r", string.Empty).Replace("\n", string.Empty);
+            Manejo_INI.WritePrivateProfileString(sSection, sKey, sanitizedValue, sINIFile);
         }
     }
 }

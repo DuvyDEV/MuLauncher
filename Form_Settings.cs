@@ -126,7 +126,7 @@ namespace File_Downloader
             ((ISupportInitialize)this.btn_cancelar).BeginInit();
             this.SuspendLayout();
             PictureBox btnGuardar1 = this.btn_guardar;
-            Point point1 = new Point(0, 360);
+            Point point1 = new Point(30, 390);
             Point point2 = point1;
             btnGuardar1.Location = point2;
             this.btn_guardar.Name = "btn_guardar";
@@ -137,7 +137,7 @@ namespace File_Downloader
             this.btn_guardar.TabIndex = 0;
             this.btn_guardar.TabStop = false;
             PictureBox btnCancelar1 = this.btn_cancelar;
-            point1 = new Point(150, 360);
+            point1 = new Point(180, 390);
             Point point3 = point1;
             btnCancelar1.Location = point3;
             this.btn_cancelar.Name = "btn_cancelar";
@@ -153,7 +153,7 @@ namespace File_Downloader
             txtId1.Location = point4;
             this.txt_id.Name = "txt_id";
             TextBox txtId2 = this.txt_id;
-            size1 = new Size(161, 20);
+            size1 = new Size(300, 20);
             Size size4 = size1;
             txtId2.Size = size4;
             this.txt_id.TabIndex = 2;
@@ -173,7 +173,7 @@ namespace File_Downloader
             oppPantalla1.Location = point5;
             this.opp_pantalla.Name = "opp_pantalla";
             ComboBox oppPantalla2 = this.opp_pantalla;
-            size1 = new Size(205, 21);
+            size1 = new Size(300, 21);
             Size size5 = size1;
             oppPantalla2.Size = size5;
             this.opp_pantalla.TabIndex = 3;
@@ -191,7 +191,7 @@ namespace File_Downloader
             oppLanguaje1.Location = point6;
             this.opp_languaje.Name = "opp_languaje";
             ComboBox oppLanguaje2 = this.opp_languaje;
-            size1 = new Size(205, 21);
+            size1 = new Size(300, 21);
             Size size6 = size1;
             oppLanguaje2.Size = size6;
             this.opp_languaje.TabIndex = 4;
@@ -261,7 +261,7 @@ namespace File_Downloader
             this.chk_efectos.Font = new Font("Microsoft Sans Serif", 9.75f, FontStyle.Bold, GraphicsUnit.Point, (byte)0);
             this.chk_efectos.ForeColor = Color.FromArgb((int)byte.MaxValue, 128 /*0x80*/, 0);
             CheckBox chkEfectos1 = this.chk_efectos;
-            point1 = new Point(115, 262);
+            point1 = new Point(190, 262);
             Point point11 = point1;
             chkEfectos1.Location = point11;
             this.chk_efectos.Name = "chk_efectos";
@@ -277,12 +277,12 @@ namespace File_Downloader
             this.chk_60fps.Font = new Font("Microsoft Sans Serif", 9.75f, FontStyle.Bold, GraphicsUnit.Point, (byte)0);
             this.chk_60fps.ForeColor = Color.FromArgb((int)byte.MaxValue, 128 /*0x80*/, 0);
             CheckBox chk60Fps1 = this.chk_60fps;
-            point1 = new Point(33, 288);
+            point1 = new Point(33, 292);
             Point point12 = point1;
             chk60Fps1.Location = point12;
             this.chk_60fps.Name = "chk_60fps";
             CheckBox chk60Fps2 = this.chk_60fps;
-            size1 = new Size(130, 20);
+            size1 = new Size(150, 20);
             Size size12 = size1;
             chk60Fps2.Size = size12;
             this.chk_60fps.TabIndex = 10;
@@ -293,12 +293,12 @@ namespace File_Downloader
             this.chk_clock.Font = new Font("Microsoft Sans Serif", 9.75f, FontStyle.Bold, GraphicsUnit.Point, (byte)0);
             this.chk_clock.ForeColor = Color.FromArgb((int)byte.MaxValue, 128 /*0x80*/, 0);
             CheckBox chkClock1 = this.chk_clock;
-            point1 = new Point(150, 288);
+            point1 = new Point(190, 292);
             Point point13 = point1;
             chkClock1.Location = point13;
             this.chk_clock.Name = "chk_clock";
             CheckBox chkClock2 = this.chk_clock;
-            size1 = new Size(130, 20);
+            size1 = new Size(150, 20);
             Size size13 = size1;
             chkClock2.Size = size13;
             this.chk_clock.TabIndex = 11;
@@ -309,12 +309,12 @@ namespace File_Downloader
             this.chk_ping.Font = new Font("Microsoft Sans Serif", 9.75f, FontStyle.Bold, GraphicsUnit.Point, (byte)0);
             this.chk_ping.ForeColor = Color.FromArgb((int)byte.MaxValue, 128 /*0x80*/, 0);
             CheckBox chkPing1 = this.chk_ping;
-            point1 = new Point(33, 314);
+            point1 = new Point(33, 322);
             Point point14 = point1;
             chkPing1.Location = point14;
             this.chk_ping.Name = "chk_ping";
             CheckBox chkPing2 = this.chk_ping;
-            size1 = new Size(190, 20);
+            size1 = new Size(300, 20);
             Size size14 = size1;
             chkPing2.Size = size14;
             this.chk_ping.TabIndex = 12;
@@ -325,12 +325,12 @@ namespace File_Downloader
             this.chk_discord.Font = new Font("Microsoft Sans Serif", 9.75f, FontStyle.Bold, GraphicsUnit.Point, (byte)0);
             this.chk_discord.ForeColor = Color.FromArgb((int)byte.MaxValue, 128 /*0x80*/, 0);
             CheckBox chkDiscord1 = this.chk_discord;
-            point1 = new Point(150, 314);
+            point1 = new Point(33, 352);
             Point point15 = point1;
             chkDiscord1.Location = point15;
             this.chk_discord.Name = "chk_discord";
             CheckBox chkDiscord2 = this.chk_discord;
-            size1 = new Size(140, 20);
+            size1 = new Size(300, 20);
             Size size15 = size1;
             chkDiscord2.Size = size15;
             this.chk_discord.TabIndex = 13;
@@ -338,7 +338,7 @@ namespace File_Downloader
             this.chk_discord.UseVisualStyleBackColor = false;
             this.AutoScaleDimensions = new SizeF(6f, 13f);
             this.AutoScaleMode = AutoScaleMode.Font;
-            size1 = new Size(300, 405);
+            size1 = new Size(360, 440);
             this.ClientSize = size1;
             this.Controls.Add((Control)this.chk_discord);
             this.Controls.Add((Control)this.chk_ping);
@@ -355,6 +355,9 @@ namespace File_Downloader
             this.Controls.Add((Control)this.btn_cancelar);
             this.Controls.Add((Control)this.btn_guardar);
             this.FormBorderStyle = FormBorderStyle.None;
+            Icon executableIcon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
+            if (executableIcon != null)
+                this.Icon = executableIcon;
             this.Name = nameof(Form_Settings);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Text = "Opciones";

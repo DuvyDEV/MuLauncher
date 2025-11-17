@@ -96,7 +96,6 @@ namespace File_Downloader
         [DebuggerStepThrough]
         private void InitializeComponent()
         {
-            ComponentResourceManager componentResourceManager = new ComponentResourceManager(typeof(frmMain));
             this.lblpercent = new Label();
             this.BackgroundWorker1 = new BackgroundWorker();
             this.ProgressBar1 = new ProgressBar();
@@ -182,7 +181,9 @@ namespace File_Downloader
             this.Controls.Add((Control)this.Panel2);
             this.Font = new Font("Arial", 9f, FontStyle.Regular, GraphicsUnit.Point, (byte)0);
             this.FormBorderStyle = FormBorderStyle.None;
-            this.Icon = (Icon)componentResourceManager.GetObject("$this.Icon");
+            Icon executableIcon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
+            if (executableIcon != null)
+                this.Icon = executableIcon;
             this.MaximizeBox = false;
             this.Name = nameof(frmMain);
             this.StartPosition = FormStartPosition.Manual;

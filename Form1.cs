@@ -118,7 +118,6 @@ namespace File_Downloader
         private void InitializeComponent()
         {
             this.components = (IContainer)new System.ComponentModel.Container();
-            ComponentResourceManager componentResourceManager = new ComponentResourceManager(typeof(Form1));
             this.RichTextBox1 = new RichTextBox();
             this.BackgroundWorker1 = new BackgroundWorker();
             this.Timer1 = new System.Windows.Forms.Timer(this.components);
@@ -256,7 +255,7 @@ namespace File_Downloader
             Size size11 = size1;
             lblNombre2.Size = size11;
             this.lbl_Nombre.TabIndex = 19;
-            this.lbl_Nombre.Text = "ZeroLauncher";
+            this.lbl_Nombre.Text = "KonohaLauncher";
             this.btn_start.BackColor = SystemColors.Control;
             PictureBox btnStart1 = this.btn_start;
             point1 = new Point(798, 449);
@@ -347,13 +346,15 @@ namespace File_Downloader
             this.Controls.Add((Control)this.RichTextBox1);
             this.Controls.Add((Control)this.Pic_Banners);
             this.FormBorderStyle = FormBorderStyle.None;
-            this.Icon = (Icon)componentResourceManager.GetObject("$this.Icon");
+            Icon executableIcon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
+            if (executableIcon != null)
+                this.Icon = executableIcon;
             this.MaximizeBox = false;
             size1 = new Size(1114, 603);
             this.MaximumSize = size1;
             this.Name = nameof(Form1);
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.Text = "ZeroLauncher";
+            this.Text = "KonohaLauncher";
             this.TransparencyKey = Color.Lime;
             ((ISupportInitialize)this.btn_settings).EndInit();
             ((ISupportInitialize)this.btn_min).EndInit();
