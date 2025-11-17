@@ -39,6 +39,10 @@ namespace File_Downloader
         public static string lng28;
         public static string lng29;
         public static string lng30;
+        public static string lng31;
+        public static string lng32;
+        public static string lng33;
+        public static string lng34;
 
         public static void Load_Lenguaje()
         {
@@ -73,6 +77,10 @@ namespace File_Downloader
             Variables_Languaje.lng28 = Manejo_INI.LeerINI($"{Application.StartupPath}\\{Variables_Glob.Def_Carpeta_Launcher}\\ConfigLng.ini", Variables_Languaje.def_lang, "lng28", "?");
             Variables_Languaje.lng29 = Manejo_INI.LeerINI($"{Application.StartupPath}\\{Variables_Glob.Def_Carpeta_Launcher}\\ConfigLng.ini", Variables_Languaje.def_lang, "lng29", "?");
             Variables_Languaje.lng30 = Manejo_INI.LeerINI($"{Application.StartupPath}\\{Variables_Glob.Def_Carpeta_Launcher}\\ConfigLng.ini", Variables_Languaje.def_lang, "lng30", "?");
+            Variables_Languaje.lng31 = Manejo_INI.LeerINI($"{Application.StartupPath}\\{Variables_Glob.Def_Carpeta_Launcher}\\ConfigLng.ini", Variables_Languaje.def_lang, "lng31", "?");
+            Variables_Languaje.lng32 = Manejo_INI.LeerINI($"{Application.StartupPath}\\{Variables_Glob.Def_Carpeta_Launcher}\\ConfigLng.ini", Variables_Languaje.def_lang, "lng32", "?");
+            Variables_Languaje.lng33 = Manejo_INI.LeerINI($"{Application.StartupPath}\\{Variables_Glob.Def_Carpeta_Launcher}\\ConfigLng.ini", Variables_Languaje.def_lang, "lng33", "?");
+            Variables_Languaje.lng34 = Manejo_INI.LeerINI($"{Application.StartupPath}\\{Variables_Glob.Def_Carpeta_Launcher}\\ConfigLng.ini", Variables_Languaje.def_lang, "lng34", "?");
         }
     }
 }

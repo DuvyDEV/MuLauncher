@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 
@@ -37,6 +38,14 @@ namespace File_Downloader
         private CheckBox _chk_musica;
         [AccessedThroughProperty("chk_efectos")]
         private CheckBox _chk_efectos;
+        [AccessedThroughProperty("chk_60fps")]
+        private CheckBox _chk_60fps;
+        [AccessedThroughProperty("chk_clock")]
+        private CheckBox _chk_clock;
+        [AccessedThroughProperty("chk_ping")]
+        private CheckBox _chk_ping;
+        [AccessedThroughProperty("chk_discord")]
+        private CheckBox _chk_discord;
         private const int WM_NCHITTEST = 132;
         private const int HTCLIENT = 1;
         private const int HTCAPTION = 2;
@@ -109,11 +118,15 @@ namespace File_Downloader
             this.Label3 = new Label();
             this.chk_musica = new CheckBox();
             this.chk_efectos = new CheckBox();
+            this.chk_60fps = new CheckBox();
+            this.chk_clock = new CheckBox();
+            this.chk_ping = new CheckBox();
+            this.chk_discord = new CheckBox();
             ((ISupportInitialize)this.btn_guardar).BeginInit();
             ((ISupportInitialize)this.btn_cancelar).BeginInit();
             this.SuspendLayout();
             PictureBox btnGuardar1 = this.btn_guardar;
-            Point point1 = new Point(0, 321);
+            Point point1 = new Point(0, 360);
             Point point2 = point1;
             btnGuardar1.Location = point2;
             this.btn_guardar.Name = "btn_guardar";
@@ -124,7 +137,7 @@ namespace File_Downloader
             this.btn_guardar.TabIndex = 0;
             this.btn_guardar.TabStop = false;
             PictureBox btnCancelar1 = this.btn_cancelar;
-            point1 = new Point(150, 321);
+            point1 = new Point(150, 360);
             Point point3 = point1;
             btnCancelar1.Location = point3;
             this.btn_cancelar.Name = "btn_cancelar";
@@ -259,10 +272,78 @@ namespace File_Downloader
             this.chk_efectos.TabIndex = 9;
             this.chk_efectos.Text = "Efectos de Sonido";
             this.chk_efectos.UseVisualStyleBackColor = false;
+            this.chk_60fps.AutoSize = true;
+            this.chk_60fps.BackColor = Color.Transparent;
+            this.chk_60fps.Font = new Font("Microsoft Sans Serif", 9.75f, FontStyle.Bold, GraphicsUnit.Point, (byte)0);
+            this.chk_60fps.ForeColor = Color.FromArgb((int)byte.MaxValue, 128 /*0x80*/, 0);
+            CheckBox chk60Fps1 = this.chk_60fps;
+            point1 = new Point(33, 288);
+            Point point12 = point1;
+            chk60Fps1.Location = point12;
+            this.chk_60fps.Name = "chk_60fps";
+            CheckBox chk60Fps2 = this.chk_60fps;
+            size1 = new Size(130, 20);
+            Size size12 = size1;
+            chk60Fps2.Size = size12;
+            this.chk_60fps.TabIndex = 10;
+            this.chk_60fps.Text = "Habilitar 60 FPS";
+            this.chk_60fps.UseVisualStyleBackColor = false;
+            this.chk_clock.AutoSize = true;
+            this.chk_clock.BackColor = Color.Transparent;
+            this.chk_clock.Font = new Font("Microsoft Sans Serif", 9.75f, FontStyle.Bold, GraphicsUnit.Point, (byte)0);
+            this.chk_clock.ForeColor = Color.FromArgb((int)byte.MaxValue, 128 /*0x80*/, 0);
+            CheckBox chkClock1 = this.chk_clock;
+            point1 = new Point(150, 288);
+            Point point13 = point1;
+            chkClock1.Location = point13;
+            this.chk_clock.Name = "chk_clock";
+            CheckBox chkClock2 = this.chk_clock;
+            size1 = new Size(130, 20);
+            Size size13 = size1;
+            chkClock2.Size = size13;
+            this.chk_clock.TabIndex = 11;
+            this.chk_clock.Text = "Mostrar Reloj";
+            this.chk_clock.UseVisualStyleBackColor = false;
+            this.chk_ping.AutoSize = true;
+            this.chk_ping.BackColor = Color.Transparent;
+            this.chk_ping.Font = new Font("Microsoft Sans Serif", 9.75f, FontStyle.Bold, GraphicsUnit.Point, (byte)0);
+            this.chk_ping.ForeColor = Color.FromArgb((int)byte.MaxValue, 128 /*0x80*/, 0);
+            CheckBox chkPing1 = this.chk_ping;
+            point1 = new Point(33, 314);
+            Point point14 = point1;
+            chkPing1.Location = point14;
+            this.chk_ping.Name = "chk_ping";
+            CheckBox chkPing2 = this.chk_ping;
+            size1 = new Size(190, 20);
+            Size size14 = size1;
+            chkPing2.Size = size14;
+            this.chk_ping.TabIndex = 12;
+            this.chk_ping.Text = "Indicador de Latencia";
+            this.chk_ping.UseVisualStyleBackColor = false;
+            this.chk_discord.AutoSize = true;
+            this.chk_discord.BackColor = Color.Transparent;
+            this.chk_discord.Font = new Font("Microsoft Sans Serif", 9.75f, FontStyle.Bold, GraphicsUnit.Point, (byte)0);
+            this.chk_discord.ForeColor = Color.FromArgb((int)byte.MaxValue, 128 /*0x80*/, 0);
+            CheckBox chkDiscord1 = this.chk_discord;
+            point1 = new Point(150, 314);
+            Point point15 = point1;
+            chkDiscord1.Location = point15;
+            this.chk_discord.Name = "chk_discord";
+            CheckBox chkDiscord2 = this.chk_discord;
+            size1 = new Size(140, 20);
+            Size size15 = size1;
+            chkDiscord2.Size = size15;
+            this.chk_discord.TabIndex = 13;
+            this.chk_discord.Text = "Discord RPC";
+            this.chk_discord.UseVisualStyleBackColor = false;
             this.AutoScaleDimensions = new SizeF(6f, 13f);
             this.AutoScaleMode = AutoScaleMode.Font;
-            size1 = new Size(300, 356);
+            size1 = new Size(300, 405);
             this.ClientSize = size1;
+            this.Controls.Add((Control)this.chk_discord);
+            this.Controls.Add((Control)this.chk_ping);
+            this.Controls.Add((Control)this.chk_clock);
+            this.Controls.Add((Control)this.chk_60fps);
             this.Controls.Add((Control)this.chk_efectos);
             this.Controls.Add((Control)this.chk_musica);
             this.Controls.Add((Control)this.Label3);
@@ -409,6 +490,50 @@ namespace File_Downloader
             }
         }
 
+        internal virtual CheckBox chk_60fps
+        {
+            [DebuggerNonUserCode]
+            get => this._chk_60fps;
+            [DebuggerNonUserCode, MethodImpl(MethodImplOptions.Synchronized)]
+            set
+            {
+                this._chk_60fps = value;
+            }
+        }
+
+        internal virtual CheckBox chk_clock
+        {
+            [DebuggerNonUserCode]
+            get => this._chk_clock;
+            [DebuggerNonUserCode, MethodImpl(MethodImplOptions.Synchronized)]
+            set
+            {
+                this._chk_clock = value;
+            }
+        }
+
+        internal virtual CheckBox chk_ping
+        {
+            [DebuggerNonUserCode]
+            get => this._chk_ping;
+            [DebuggerNonUserCode, MethodImpl(MethodImplOptions.Synchronized)]
+            set
+            {
+                this._chk_ping = value;
+            }
+        }
+
+        internal virtual CheckBox chk_discord
+        {
+            [DebuggerNonUserCode]
+            get => this._chk_discord;
+            [DebuggerNonUserCode, MethodImpl(MethodImplOptions.Synchronized)]
+            set
+            {
+                this._chk_discord = value;
+            }
+        }
+
         protected override void WndProc(ref Message m)
         {
             if (m.Msg == 132)
@@ -458,9 +583,13 @@ namespace File_Downloader
             else
             {
                 if (Operators.CompareString(Left, "Por", false) != 0)
+                {
+                    this.CargarSettingsIni();
                     return;
+                }
                 this.opp_languaje.Text = "Portugues";
             }
+            this.CargarSettingsIni();
         }
 
         private void Guardar_Registros()
@@ -511,6 +640,31 @@ namespace File_Downloader
             }
             MyProject.Computer.Registry.SetValue("HKEY_CURRENT_USER\\Software\\Webzen\\Mu\\Config", "MusicOnOff", (object)(num1 != 0 ? Conversions.ToInteger("1") : Conversions.ToInteger("0")));
             MyProject.Computer.Registry.SetValue("HKEY_CURRENT_USER\\Software\\Webzen\\Mu\\Config", "SoundOnOff", (object)(num2 != 0 ? Conversions.ToInteger("1") : Conversions.ToInteger("0")));
+            this.GuardarSettingsIni();
+        }
+
+        private void CargarSettingsIni()
+        {
+            string settingsIniPath = this.GetSettingsIniPath();
+            if (!File.Exists(settingsIniPath))
+                return;
+            string disableNewFps = Manejo_INI.LeerINI(settingsIniPath, "Graphics", "DisableNewFPS", "1").Trim();
+            this.chk_60fps.Checked = Operators.CompareString(disableNewFps, "0", false) == 0;
+            string serverTime = Manejo_INI.LeerINI(settingsIniPath, "Other", "ServerTime", "0").Trim();
+            this.chk_clock.Checked = Operators.CompareString(serverTime, "1", false) == 0;
+            string disablePing = Manejo_INI.LeerINI(settingsIniPath, "Other", "DisablePing", "1").Trim();
+            this.chk_ping.Checked = Operators.CompareString(disablePing, "0", false) == 0;
+            string discordPresence = Manejo_INI.LeerINI(settingsIniPath, "Discord", "DiscordShowPresence", "0").Trim();
+            this.chk_discord.Checked = Operators.CompareString(discordPresence, "1", false) == 0;
+        }
+
+        private void GuardarSettingsIni()
+        {
+            string settingsIniPath = this.GetSettingsIniPath();
+            Manejo_INI.EscribirINI(settingsIniPath, "Graphics", "DisableNewFPS", this.chk_60fps.Checked ? "0" : "1");
+            Manejo_INI.EscribirINI(settingsIniPath, "Other", "ServerTime", this.chk_clock.Checked ? "1" : "0");
+            Manejo_INI.EscribirINI(settingsIniPath, "Other", "DisablePing", this.chk_ping.Checked ? "0" : "1");
+            Manejo_INI.EscribirINI(settingsIniPath, "Discord", "DiscordShowPresence", this.chk_discord.Checked ? "1" : "0");
         }
 
         private void Form_Settings_Load(object sender, EventArgs e)
@@ -524,6 +678,10 @@ namespace File_Downloader
             this.Label3.Text = Variables_Languaje.lng28;
             this.chk_musica.Text = Variables_Languaje.lng29;
             this.chk_efectos.Text = Variables_Languaje.lng30;
+            this.chk_60fps.Text = Variables_Languaje.lng31;
+            this.chk_clock.Text = Variables_Languaje.lng32;
+            this.chk_ping.Text = Variables_Languaje.lng33;
+            this.chk_discord.Text = Variables_Languaje.lng34;
         }
 
         private void btn_guardar_MouseHover(object sender, EventArgs e)
@@ -555,5 +713,7 @@ namespace File_Downloader
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e) => this.Close();
+
+        private string GetSettingsIniPath() => Path.Combine(Application.StartupPath, "Settings.ini");
     }
 }
