@@ -22,6 +22,7 @@ El codigo fué descompilado manualmente, convertido a proyecto C# + Net Framewor
 * Se refactorizó una parte muy chiquita de la comprobación de estado del servidor remoto (estaba hecho con los codos).
 
 ## Futuros cambios (To-Do) si se requieren:
+* Cambiar index y parches a un CDN o similar. Si se cae la web se cae el launcher, eso no está nada bueno
 * Agregar comprobacion de estado del servidor, eso incluye indicador Online/Offline
 * Más opciones de configuración (AntiLag por ejemplo)
 * Creación de perfiles default de configuracion para el AntiLag (ejemplo: "Modo rendimiento", "Modo balanceado", "Modo calidad"), una forma facil y rápida para los usuarios de cambiar "presets" graficos según la PC que tengan con 1 solo click.
