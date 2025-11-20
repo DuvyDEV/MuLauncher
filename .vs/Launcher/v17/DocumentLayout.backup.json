@@ -3,47 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|c:\\users\\pablo\\desktop\\github\\mulauncher\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|c:\\users\\pablo\\desktop\\github\\mulauncher\\launcherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:launcherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\form1.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:form1.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|c:\\users\\pablo\\desktop\\github\\mulauncher\\forms\\updateprogressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:forms\\updateprogressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\frmmain.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:frmmain.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|c:\\users\\pablo\\desktop\\github\\mulauncher\\forms\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:forms\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\form_settings.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:form_settings.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|c:\\users\\pablo\\desktop\\github\\mulauncher\\forms\\launcherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:forms\\launcherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\frmmain.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:frmmain.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\variables_glob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:variables_glob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Launcher||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\forms\\launcherform.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{52A987EC-FC53-4FF3-A64B-C87AEF4E827B}|Launcher.csproj|solutionrelative:forms\\launcherform.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,135 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LauncherConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\LauncherConfiguration.cs",
+              "RelativeDocumentMoniker": "LauncherConfiguration.cs",
+              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\LauncherConfiguration.cs",
+              "RelativeToolTip": "LauncherConfiguration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:35:37.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.resx",
-              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Form1.resx",
-              "RelativeDocumentMoniker": "Form1.resx",
-              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Form1.resx",
-              "RelativeToolTip": "Form1.resx",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAHgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-11-17T16:23:41.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmMain.resx",
-              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\frmMain.resx",
-              "RelativeDocumentMoniker": "frmMain.resx",
-              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\frmMain.resx",
-              "RelativeToolTip": "frmMain.resx",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-11-17T16:23:38.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form_Settings.resx",
-              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Form_Settings.resx",
-              "RelativeDocumentMoniker": "Form_Settings.resx",
-              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Form_Settings.resx",
-              "RelativeToolTip": "Form_Settings.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-11-17T16:22:51.225Z"
+              "Title": "UpdateProgressForm.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Forms\\UpdateProgressForm.cs",
+              "RelativeDocumentMoniker": "Forms\\UpdateProgressForm.cs",
+              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Forms\\UpdateProgressForm.cs",
+              "RelativeToolTip": "Forms\\UpdateProgressForm.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAcwKcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:35:35.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmMain.resx",
-              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\frmMain.resx",
-              "RelativeDocumentMoniker": "frmMain.resx",
-              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\frmMain.resx",
-              "RelativeToolTip": "frmMain.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-11-17T16:22:33.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.resx",
-              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Form1.resx",
-              "RelativeDocumentMoniker": "Form1.resx",
-              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Form1.resx",
-              "RelativeToolTip": "Form1.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-11-17T16:21:45.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Title": "SettingsForm.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Forms\\SettingsForm.cs",
+              "RelativeDocumentMoniker": "Forms\\SettingsForm.cs",
+              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Forms\\SettingsForm.cs",
+              "RelativeToolTip": "Forms\\SettingsForm.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAcwKgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T16:21:44.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Variables_Glob.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Variables_Glob.cs",
-              "RelativeDocumentMoniker": "Variables_Glob.cs",
-              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Variables_Glob.cs",
-              "RelativeToolTip": "Variables_Glob.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T16:20:33.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAEgBAAAAAAAAAAAvwF0BAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T16:20:20.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\AssemblyInfo.cs",
-              "RelativeToolTip": "AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T16:19:36.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Launcher",
-              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Launcher.csproj",
-              "RelativeDocumentMoniker": "Launcher.csproj",
-              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Launcher.csproj",
-              "RelativeToolTip": "Launcher.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-17T16:18:36.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\frmMain.cs",
-              "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\frmMain.cs",
-              "RelativeToolTip": "frmMain.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAvwLgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T16:18:05.591Z",
+              "WhenOpened": "2025-11-20T03:35:33.649Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LauncherForm.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Forms\\LauncherForm.cs",
+              "RelativeDocumentMoniker": "Forms\\LauncherForm.cs",
+              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Forms\\LauncherForm.cs",
+              "RelativeToolTip": "Forms\\LauncherForm.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAcwBgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:25:43.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LauncherForm.resx",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Forms\\LauncherForm.resx",
+              "RelativeDocumentMoniker": "Forms\\LauncherForm.resx",
+              "ToolTip": "C:\\Users\\Pablo\\Desktop\\GitHub\\MuLauncher\\Forms\\LauncherForm.resx",
+              "RelativeToolTip": "Forms\\LauncherForm.resx",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAMwHoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-11-20T03:25:28.278Z"
             }
           ]
         }
